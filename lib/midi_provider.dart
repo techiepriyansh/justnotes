@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/services.dart';
 
-import 'package:justgroove/midi_instruments.dart';
+import 'package:justnotes/midi_instruments.dart';
 
 class MidiProvider{
   static const MethodChannel _channel = MethodChannel("samples.mathbert.dev/midi");
